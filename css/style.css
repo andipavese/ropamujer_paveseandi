@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav li {
+  margin-right: 2.5rem;
+}
+nav li a {
+  text-decoration: none;
+  color: grey;
+}
+nav li a:hover {
+  color: red;
+}
+
+.text {
+  color: #24a0ed;
+}
+
+button {
+  color: #24a0ed;
+  border: 2px solid #24a0ed;
+}
+
+/*# sourceMappingURL=style.css.map */
